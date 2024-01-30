@@ -15,3 +15,8 @@ project "ImGUI"
 		"src/**.cpp",
 	}
 
+    includedirs
+    {
+        "%{IncludeDirs.GLFW}"
+    }
+
